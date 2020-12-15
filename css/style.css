@@ -256,6 +256,7 @@ body .favorit .options__all {
   background-color: #363c47;
   padding: 20px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 body .favorit .options__circle {
