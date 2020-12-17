@@ -278,6 +278,69 @@ body .favorit .options__all--restaurent {
   border: 1px solid red;
 }
 
+body .footer {
+  background-color: #272d36;
+  height: 100px;
+}
+
+body .footer .circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #868396;
+  margin: auto;
+  position: relative;
+  top: -23%;
+}
+
+body .footer .circle:after {
+  content: '+';
+  position: absolute;
+  top: 8px;
+  left: 24px;
+  font-size: 2em;
+}
+
+body .footer .list {
+  position: relative;
+  right: 6px;
+  font-size: 1.1em;
+  color: #868396;
+}
+
+body .footer .list:hover {
+  color: #fff;
+}
+
+body .footer .fa-list {
+  color: #868396;
+}
+
+body .footer .fa-list:hover {
+  color: #fff;
+}
+
+body .footer .setting {
+  position: relative;
+  right: -4px;
+  font-size: 1.1em;
+  color: #868396;
+}
+
+body .footer .setting:hover {
+  color: #fff;
+}
+
+body .footer .fa-cog {
+  position: relative;
+  left: -6%;
+  color: #868396;
+}
+
+body .footer .fa-cog:hover {
+  color: #fff;
+}
+
 .bg-light {
   background-color: #2e353f !important;
   border-bottom: 1px solid white;
